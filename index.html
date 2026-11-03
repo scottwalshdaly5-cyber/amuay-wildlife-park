@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amuay Wildlife Park</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="top">
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>Discover the Wild Side of Amuay</h1>
+        <p class="hero-slogan">Protecting Nature, Preserving Life.</p>
+        <p>Explore natural landscapes, discover wildlife and experience the beauty of nature.</p>
+        <a href="#wildlife" class="hero-button">Explore Wildlife</a>
+    </div>
+</section>
+<header>
+    <h1>Welcome to Amuay Wildlife Park</h1>
+<p>Discover the incredible wildlife, natural habitats and beautiful landscapes of Amuay Wildlife Park.</p>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="#about">About the Park</a>
+        <a href="#wildlife">Wildlife</a>
+        <a href="#habitats">Habitats</a>
+        <a href="#flora">Plant Life</a>
+        <a href="#visitor-info">Visitor Information</a>
+        <a href="#conservation">Conservation</a>
+    </nav>
+    <button id="theme-toggle">🌙 Dark Mode</button>
+</header>
+<main>
+    <section id="about">
+        <h2>About the Park</h2>
+        <p>
+    Amuay Wildlife Park is a nature reserve located 350 km west of Venezuela's capital. 
+    Covering an area of 72 km², the park contains a variety of natural landscapes, 
+    including grasslands, hills and marshes. These environments support a wide range 
+    of animal and plant life, making the reserve an important natural area to explore 
+    and protect.
+</p>
+        
+<div class="park-facts">
+    <div class="fact">
+        <h3>72 km²</h3>
+        <p>Total area of the nature reserve</p>
+    </div>
+
+    <div class="fact">
+        <h3>350 km</h3>
+        <p>West of Venezuela's capital</p>
+    </div>
+
+    <div class="fact">
+        <h3>3 Habitats</h3>
+        <p>Grasslands, hills and marshes</p>
+    </div>
+</div>
+<img src="images/park-landscape.jpg" alt="Natural landscape of Amuay Wildlife Park">
+    </section>
+    <section id="mission">
+    <h2>Our Mission</h2>
+
+    <p>
+        Our mission is to protect and preserve the natural environment
+        of Amuay Wildlife Park, safeguarding its flora and fauna for
+        future generations. Through conservation, environmental
+        awareness and responsible tourism, we aim to protect the
+        park's unique habitats and encourage respect for nature.
+    </p>
+</section>
+    <section id="wildlife">
+    <h2>Discover the Wildlife</h2>
+    <p>Explore the different types of wildlife and natural habitats found within Amuay Wildlife Park.</p>
+
+    <div class="wildlife-grid">
+
+    <article class="wildlife-card">
+        <img src="images/mammals.jpg" alt="Mammal in its natural habitat">
+        <h3>Mammals</h3>
+        <p>
+    The crab-eating fox is a wild canine native to South America.
+    It lives in habitats such as forests, grasslands and wetlands.
+    Its diet includes crabs, insects, small animals and fruit.
+</p>
+    </article>
+
+    <article class="wildlife-card">
+        <img src="images/birds.jpg" alt="Bird in its natural habitat">
+        <h3>Birds</h3>
+        <p>
+    Flamingos are recognisable by their long legs, curved beaks
+    and pink feathers. They are commonly found in shallow lakes,
+    lagoons and wetlands, where they feed on algae and small
+    aquatic organisms.
+</p>
+    </article>
+
+    <article class="wildlife-card">
+        <img src="images/reptiles.jpg" alt="Reptile in its natural habitat">
+        <h3>Reptiles and Amphibians</h3>
+        <p>
+    Lizards are reptiles found in a wide range of habitats,
+    including grasslands, forests and wetlands. Many feed on
+    insects and other small creatures, while some species
+    also eat plants. They often use sunlight to regulate
+    their body temperature.
+</p>
+    </article>
+
+</div>
+</section>
+<section id="habitats">
+    <h2>Explore the Park's Habitats</h2>
+
+    <p>
+        Amuay Wildlife Park is home to a variety of natural
+        landscapes, including grasslands, hills and marshes.
+        Each habitat contributes to the park's natural beauty
+        and provides an important environment for wildlife.
+    </p>
+
+    <div class="wildlife-grid">
+
+        <article class="wildlife-card">
+            <h3>Grasslands</h3>
+            <img src="images/grasslands.jpg" alt="Open grassland landscape">
+            <p>
+                The park's grasslands feature open areas of
+                natural vegetation, creating a distinctive
+                landscape across the reserve.
+            </p>
+        </article>
+
+        <article class="wildlife-card">
+            <h3>Hills</h3>
+            <img src="images/hills.jpg" alt="Natural hills landscape">
+            <p>
+                The hills add variety to the park's landscape,
+                providing elevated areas and views across
+                the surrounding natural environment.
+            </p>
+        </article>
+
+        <article class="wildlife-card">
+            <h3>Marshes</h3>
+            <img src="images/marshes.jpg" alt="Natural marshland with shallow water and vegetation">
+            <p>
+                Marshes are wetland environments where water
+                and vegetation create an important part of
+                the park's natural landscape.
+            </p>
+        </article>
+
+    </div>
+</section>
+<div class="habitat-explorer">
+    <h3>Explore the Habitats</h3>
+    <p>Select a habitat to discover more about its environment.</p>
+
+    <div class="habitat-buttons">
+        <button onclick="showHabitat('grasslands')">Grasslands</button>
+        <button onclick="showHabitat('hills')">Hills</button>
+        <button onclick="showHabitat('marshes')">Marshes</button>
+    </div>
+
+    <div id="habitat-info">
+        <h4>Choose a Habitat</h4>
+        <p>Click one of the buttons above to explore the park's habitats.</p>
+    </div>
+</div>
+<section id="flora">
+    <h2>Discover the Plant Life of Amuay</h2>
+
+    <p>
+        The Amuay region is part of the Paraguaná Peninsula,
+        where plants have adapted to hot, dry conditions and
+        areas with high salt levels. These environments support
+        distinctive forms of regional vegetation.
+    </p>
+
+    <div class="wildlife-grid">
+
+        <article class="wildlife-card">
+            <img src="images/salinas.jpg" alt="Salinas salt flats in the Paraguaná region">
+            <h3>Salinas and Salt-Tolerant Vegetation</h3>
+            <p>
+                The salinas are coastal salt-flat environments.
+                Plants growing in these areas must tolerate
+                salty soils and challenging environmental conditions.
+            </p>
+        </article>
+
+        <article class="wildlife-card">
+            <img src="images/melon-cactus.jpg" alt="Melon cactus growing in a dry environment">
+            <h3>Melon Cactus</h3>
+            <p>
+                The melon cactus (Melocactus) is adapted to hot,
+                dry environments. Its thick structure helps it
+                survive where rainfall is limited.
+            </p>
+        </article>
+
+        <article class="wildlife-card">
+            <img src="images/cuji-yaque.jpg" alt="Cují Yaque tree">
+            <h3>Cují Yaque</h3>
+            <p>
+                Cují Yaque (Prosopis juliflora) is a thorny tree
+                that can tolerate dry conditions and limited
+                water, making it suited to arid landscapes.
+            </p>
+        </article>
+
+    </div>
+</section>
+<section id="visitor-info">
+    <h2>Visitor Information</h2>
+
+    <p>
+        Amuay Wildlife Park offers visitors the opportunity to
+        discover its natural landscapes and learn about the importance
+        of protecting wildlife and the environment.
+    </p>
+
+    <div class="wildlife-grid">
+
+        <article class="wildlife-card">
+            <h3>Explore the Park</h3>
+            <p>
+                Covering an area of 72 km², the park includes
+                grasslands, hills and marshes, providing a variety
+                of natural environments to discover.
+            </p>
+        </article>
+
+        <article class="wildlife-card">
+            <h3>Scheduled Tours</h3>
+            <p>
+                Ordinary vehicular traffic is prohibited within
+                the park. Visitors can explore designated dirt
+                tracks through scheduled tours.
+            </p>
+        </article>
+
+        <article class="wildlife-card">
+            <h3>Respect Nature</h3>
+            <p>
+                Visitors are encouraged to respect the natural
+                environment, avoid disturbing wildlife and help
+                preserve the park's habitats for future generations.
+            </p>
+        </article>
+
+    </div>
+</section>
+
+<section id="wildlife-quiz">
+    <h2>Test Your Wildlife Knowledge!</h2>
+    <p>Take our short quiz and see how much you know about wildlife and nature.</p>
+
+    <div class="quiz-container">
+        <h3 id="question">Question will appear here</h3>
+
+        <div id="answer-buttons" class="answer-buttons">
+        </div>
+
+        <p id="quiz-feedback"></p>
+
+        <button id="next-question" class="hero-button">
+            Next Question
+        </button>
+
+        <p id="quiz-score"></p>
+    </div>
+</section>
+
+<section id="conservation">
+    <h2>Protecting Our Natural Environment</h2>
+    <p>Amuay Wildlife Park is dedicated to protecting its natural landscapes, habitats, plants and wildlife.</p>
+
+    <h3>Protecting the Landscape</h3>
+    <p>
+    Amuay Wildlife Park covers 72 km² of natural landscapes,
+    including grasslands, hills and marshes. Protecting these
+    environments is important for preserving the park's natural
+    beauty and the habitats that support its plant and animal life.
+    Ordinary vehicular traffic is prohibited to reduce disturbance
+    and help protect the landscape.
+</p>
+
+    <h3>Responsible Tourism</h3>
+    <p>
+    Visitors are encouraged to respect the natural environment,
+    stay on designated tracks and avoid disturbing wildlife.
+    Responsible tourism helps ensure the park can be enjoyed
+    and protected for future generations.
+</p>
+    <h3>Guided Tours and Visitor Guidelines</h3>
+<p>
+    To protect the park's natural environment, ordinary vehicular traffic
+    is prohibited, as outlined previously. Visitors can explore the reserve through scheduled
+    tours that follow designated dirt tracks. These routes help protect
+    the landscape, keep visitors safe and preserve the park's wildlife
+    and plant life.
+</p>
+</section>
+</main>
+<footer>
+    <h3>Amuay Wildlife Park</h3>
+    <p>Protecting nature and promoting wildlife conservation.</p>
+    <p>Explore our habitats, discover wildlife and help protect the natural environment.</p>
+    <p><a href="#top">Back to Top ↑</a></p>
+    <p class="copyright">&copy; 2026 Amuay Wildlife Park. All rights reserved.</p>
+</footer>
+<script>
+    const themeButton = document.getElementById("theme-toggle");
+
+    themeButton.addEventListener("click", function() {
+        document.body.classList.toggle("dark-mode");
+
+        if (document.body.classList.contains("dark-mode")) {
+            themeButton.textContent = "☀️ Light Mode";
+        } else {
+            themeButton.textContent = "🌙 Dark Mode";
+        }
+    });
+</script>
+<script>
+    function showHabitat(habitat) {
+        const info = document.getElementById("habitat-info");
+
+        if (habitat === "grasslands") {
+            info.innerHTML = `
+                <h4>Grasslands</h4>
+                <p>Grasslands are open natural areas covered mainly by grasses and low vegetation. They provide important habitats for wildlife and create open landscapes across the park.</p>
+            `;
+        } 
+        else if (habitat === "hills") {
+            info.innerHTML = `
+                <h4>Hills</h4>
+                <p>The hills provide elevated areas and varied terrain. They add diversity to the park's landscape and offer different natural environments for plants and wildlife.</p>
+            `;
+        } 
+        else if (habitat === "marshes") {
+            info.innerHTML = `
+                <h4>Marshes</h4>
+                <p>Marshes are wetland environments where water and vegetation create important habitats for wildlife. They contribute to the variety of natural landscapes in the park.</p>
+            `;
+        }
+    }
+</script>
+<script>
+    const quizQuestions = [
+        {
+            question: "Which of these is a mammal native to South America?",
+            answers: ["Flamingo", "Crab-eating fox", "Lizard", "Crocodile"],
+            correct: "Crab-eating fox"
+        },
+        {
+            question: "Which habitat is commonly associated with shallow lakes and wetlands?",
+            answers: ["Desert", "Mountains", "Marshes", "Grasslands"],
+            correct: "Marshes"
+        },
+        {
+            question: "What do flamingos use their curved beaks to help them do?",
+            answers: ["Climb trees", "Feed in water", "Dig burrows", "Catch large mammals"],
+            correct: "Feed in water"
+        },
+        {
+            question: "Why do lizards often bask in the sunlight?",
+            answers: ["To regulate body temperature", "To grow feathers", "To find salt", "To build nests"],
+            correct: "To regulate body temperature"
+        },
+        {
+            question: "Why is ordinary vehicular traffic prohibited in the park?",
+            answers: ["To save fuel", "To protect the landscape and wildlife", "To make tours longer", "To reduce visitors"],
+            correct: "To protect the landscape and wildlife"
+        }
+    ];
+    
+let currentQuestion = 0;
+let score = 0;
+
+const questionElement = document.getElementById("question");
+const answerButtons = document.getElementById("answer-buttons");
+const nextButton = document.getElementById("next-question");
+const feedbackElement = document.getElementById("quiz-feedback");
+const scoreElement = document.getElementById("quiz-score");
+
+function showQuestion() {
+    const question = quizQuestions[currentQuestion];
+
+    questionElement.textContent = question.question;
+    answerButtons.innerHTML = "";
+    feedbackElement.textContent = "";
+    nextButton.style.display = "none";
+
+    question.answers.forEach(answer => {
+        const button = document.createElement("button");
+        button.textContent = answer;
+        button.classList.add("quiz-answer");
+
+        button.addEventListener("click", function() {
+            if (answer === question.correct) {
+                score++;
+                feedbackElement.textContent = "Correct! Well done!";
+            } else {
+                feedbackElement.textContent = "Not quite! The correct answer is " + question.correct + ".";
+            }
+
+            scoreElement.textContent = "Score: " + score + " / " + quizQuestions.length;
+
+            answerButtons.querySelectorAll("button").forEach(btn => {
+                btn.disabled = true;
+            });
+
+            nextButton.style.display = "inline-block";
+        });
+
+        answerButtons.appendChild(button);
+    });
+}
+
+nextButton.addEventListener("click", function() {
+    currentQuestion++;
+
+    if (currentQuestion < quizQuestions.length) {
+        showQuestion();
+    } else {
+        questionElement.textContent = "Quiz Complete!";
+        answerButtons.innerHTML = "";
+        feedbackElement.textContent = "You scored " + score + " out of " + quizQuestions.length + "!";
+        nextButton.textContent = "Play Again";
+        nextButton.style.display = "inline-block";
+        nextButton.onclick = function() {
+            currentQuestion = 0;
+            score = 0;
+            scoreElement.textContent = "";
+            nextButton.textContent = "Next Question";
+            showQuestion();
+        };
+    }
+});
+
+showQuestion();
+
+</script>
+
+</body>
+</html>
